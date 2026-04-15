@@ -1,0 +1,69 @@
+{
+	"name": "ds_datalake",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_datalake",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_file": {
+				"type": "String"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@{dataset().p_file}.json",
+					"type": "Expression"
+				},
+				"folderPath": "ingestion",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"order_id": {
+					"type": "string"
+				},
+				"user_id": {
+					"type": "string"
+				},
+				"product_name": {
+					"type": "string"
+				},
+				"price": {
+					"type": "integer"
+				},
+				"quantity": {
+					"type": "integer"
+				},
+				"total_amount": {
+					"type": "integer"
+				},
+				"payment_method": {
+					"type": "string"
+				},
+				"order_status": {
+					"type": "string"
+				},
+				"order_created_at": {
+					"type": "string"
+				},
+				"order_updated_at": {
+					"type": "string"
+				},
+				"customer_name": {
+					"type": "string"
+				},
+				"city": {
+					"type": "string"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
