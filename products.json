@@ -1,32 +1,12 @@
 [
-  {
-    "product_id": "8ecd2b44-816e-438e-98f7-ddf2d40bc519",
-    "product_name": "Mobile",
-    "category": "Fashion",
-    "price": 1177
-  },
-  {
-    "product_id": "c65127e9-4371-4cdb-b5c7-738c9a9b3f71",
-    "product_name": "Headphones",
-    "category": "Home",
-    "price": 4468
-  },
-  {
-    "product_id": "f61a3b3c-106f-49b0-b9ac-1fe64fa3e847",
-    "product_name": "Shoes",
-    "category": "Home",
-    "price": 499
-  },
-  {
-    "product_id": "598bf4c7-2199-466f-8403-6838c689f284",
-    "product_name": "Laptop",
-    "category": "Home",
-    "price": 497
-  },
-  {
-    "product_id": "1532e858-86f2-4892-bd05-8b31a53e6607",
-    "product_name": "Watch",
-    "category": "Home",
-    "price": 392
-  }
+  {"product_id": "7146321b-6da4-4727-8131-04501ae7b26c", "product_name": "Laptop", "category": "Electronics"},
+  {"product_id": "f5d41993-ca83-424c-b8ed-a77192735450", "product_name": "Mobile", "category": "Electronics"},
+  {"product_id": "11db35ea-4f3a-401d-9007-f53f77208fcd", "product_name": "Shoes", "category": "Fashion"},
+  {"product_id": "841e257f-d8cf-4f32-875f-1308124eba7f", "product_name": "Watch", "category": "Fashion"},
+  {"product_id": "1b0ad166-3dc2-4ca7-a52b-15681946a350", "product_name": "Headphones", "category": "Electronics"},
+  {"product_id": "cf1b9e83-4bba-409f-9899-fd33c47177c0", "product_name": "Tablet", "category": "Electronics"},
+  {"product_id": "0edfddce-eef5-4497-bd3f-5dc1312c8e19", "product_name": "Camera", "category": "Electronics"},
+  {"product_id": "87d8b57a-6cbd-4e73-aee2-e426be6d3e34", "product_name": "TV", "category": "Electronics"},
+  {"product_id": "faefef03-fe47-4849-bcca-6a97f4c72f20", "product_name": "Bag", "category": "Fashion"},
+  {"product_id": "345d288a-a9b2-42d3-904a-8fce6249d3cd", "product_name": "Shoes", "category": "Fashion"}
 ]
